@@ -1,0 +1,70 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.post{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    height: 800px;
+}
+
+.post-header{
+    display: flex;
+    padding: 20px 30px 10px 30px;
+    justify-content: space-between;
+}
+.post-header .second-header{
+    display: flex;
+}
+
+
+
+.post-header div{
+    padding: 0 10px;
+}
+
+
+
+img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+i{
+    font-size: 40px;
+}
+
+.post-body{
+    padding: 10px;
+}
+
+.post-icons i{
+    padding: 5px 6px;
+
+}
+
+.post-icons .fa-heart:hover{
+    color: red;
+}
+
+.post-icons .fa-comment:hover{
+    color: blue;
+}
+
+.post-icons .fa-paper-plane:hover{
+    color: green;
+}
+
+.post-body p{
+    padding: 10px 0px;
+}
