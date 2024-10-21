@@ -18,14 +18,25 @@ body{
 
 .post-header{
     display: flex;
-    padding: 20px 30px 10px 30px;
+    padding: 10px;
     justify-content: space-between;
 }
 .post-header .second-header{
     display: flex;
 }
 
+.fa-html5{
+    padding-top: 5px;
+    font-size: 35px;
+}
 
+h1{
+    font-size: 20px;
+}
+
+.fa-ellipsis-vertical{
+    padding:5px;
+}
 
 .post-header div{
     padding: 0 10px;
@@ -49,7 +60,7 @@ i{
 }
 
 .post-icons i{
-    padding: 5px 6px;
+    padding: 5px 10px;
 
 }
 
